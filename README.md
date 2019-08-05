@@ -4,8 +4,7 @@ https://www.cc.gatech.edu/cpl/projects/dance/
 
 And I normalize the skeleton to (-1,1) according to the img size.
 
-For the dataset is noisy and one frame may have many people at the same time, I also prepross the dataset so that each frame
-
+For the dataset is noisy and one frame may have many people at the same time, I also pre-process the dataset so that in the final json file each sequence is for a single person. The multiple person in the same frame is splited.
 to run the code you need to download:
 
 https://drive.google.com/file/d/13MOsofHbTihPRWv70eAhTDGK_DrzkeB5/view for the picture which is used in img_process.ipynb
